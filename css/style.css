@@ -1,0 +1,88 @@
+:root{
+    --amarelo:#EBCC2D;
+    --azul-claro:#2DEBEB;
+    --azul-meio:#069E9E;
+    --branco:#fdfdfd;
+    --lilas: #9E237D;
+    --rosa:#EB15B2;
+
+    --font-lobster:'Lobster','Serif','Sans-Serif';
+    --font-nunito:'Nunito','Serif','Sans-Serif';
+}
+
+body{
+    background-color: var(--azul-meio);
+    text-align: center;
+}
+header{
+    color:var(--amarelo);
+    font-family: var(--font-lobster);
+    font-size: 3rem;
+    margin: 5vw;
+
+}
+main{
+    background-color: var(--lilas);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 2vw;
+    width: 60%;
+}
+.input__text{
+    color: var(--lilas);
+    background-color: var(--branco);
+    border:0px;
+    border-radius: 2px;
+    display: block;
+    font-family: var(--font-nunito);
+    font-size: 1.5rem;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+    .btn{
+    color: var(--lilas);
+    background-color: var(--amarelo);
+    border:0px;
+    border-radius:2px;
+    font-family: var(--font-lobster);
+    font-size: 1.2rem;
+    margin: 1vw;
+    width: 30%;
+}
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+ul{
+    margin: 0.5vw;
+}
+li{
+    color: var(--branco);
+    font-family: var(--font-nunito);
+    font-size: 1.5rem;
+    line-height: 2.0rem;
+}
+li:hover{
+    color: var(--amarelo);
+    cursor: pointer;
+}
+
+.span{
+    color:var(--amarelo);
+    font-family: var(--font-nunito);
+    font-size: 2rem;
+}
+footer{
+    bottom: 0;
+    color: var(--lilas);
+    font-family: var(--font-nunito);
+    position: absolute;
+    width: 100%;
+}
+.link{
+    color:var(--branco);
+}
+.link:hover{
+    color:var(--amarelo);
+}

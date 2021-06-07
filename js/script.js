@@ -37,6 +37,7 @@ btn.onclick = function(){
         removeSpan();
 
         let span = document.createElement('span');
+        span.setAttribute('class','span');
         let textSpan = document.createTextNode(' Please enter a task! ')
 
         span.appendChild(textSpan);
